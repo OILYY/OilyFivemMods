@@ -1,0 +1,32 @@
+RegisterCommand(Config.command, function(source, args, rawCommand) TriggerClientEvent("lunar:delallveh", -1) end, Config.admincommand)
+
+function CleanUpLunarTask(d, h, m)
+	TriggerClientEvent("lunar:delallveh", -1)
+end
+
+if Config.cleanuptime == 30 then
+    TriggerEvent('lunar:runAt', 0, 30, CleanUpLunarTask)   
+    TriggerEvent('lunar:runAt', 1, 30, CleanUpLunarTask)    
+    TriggerEvent('lunar:runAt', 2, 30, CleanUpLunarTask)  
+    TriggerEvent('lunar:runAt', 3, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 4, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 5, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 6, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 7, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 8, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 9, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 10, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 11, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 12, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 13, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 14, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 15, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 16, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 17, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 18, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 19, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 20, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 21, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 22, 30, CleanUpLunarTask)
+    TriggerEvent('lunar:runAt', 23, 30, CleanUpLunarTask)
+end
